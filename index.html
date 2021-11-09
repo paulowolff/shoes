@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes</title>
     <link rel="stylesheet" href="/css/estilo.css">
+
 </head>
+
 <body>
-    
+    <header>
+        <img src="./img/logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="">Todos os Produtos</a></li>
+                <li><a href="">Coleção</a></li>
+                <li><a href="">Outlet</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div>
+            <h2>Faça parte do nosso time</h2>
+            <form action="">
+                <label>
+                    Nome:
+                    <input type="text" name="nome" id="nome">
+                </label>
+                <label>
+                    E-mail:
+                    <input type="email" name="email" id="email">
+                </label>
+                <label>
+                    Telefone:
+                    <input type="tel" name="telefone" id="telefone">
+                </label>
+                <label>
+                    Departamentos:
+                    <select name="departamentos" id="departamentos">
+                        <option selected disabled>Selecione o departamento</option>
+                        <option value="vendas">Vendas</option>
+                        <option value="compras">Compras</option>
+                        <option value="logisticas">Logísticas</option>
+                    </select>
+                </label>
+                <div>
+                    Disponibilidade
+                    <label><input type="checkbox" name="8h"   id="">Integral (8h)</label>
+                    <label><input type="checkbox" name="4h"   id="">Meio período (4h)</label>
+                    <label><input type="checkbox" name="free" id="">Freelancer</label>
+                </div>
+                <div>
+                    Qual a melhor forma para entrarmos em contato com você?
+                    <label for=""><input type="radio" value="1" name="contato" id="contato_email">E-mail</label>
+                    <label for=""><input type="radio" value="2" name="contato" id="contato_ligacao">Ligação</label>
+                    <label for=""><input type="radio" value="3" name="contato" id="contato_wp">Whatsapp</label>
+                </div>
+                <label>
+                    Mensagem
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+                </label>
+                <label>
+                    Curriculo
+                    <input type="file" name="curriculo" id="curriculo">
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus asperiores officiis laboriosam
+            blanditiis incidunt perspiciatis quia dolorum mollitia autem animi.
+            </p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur officiis soluta assumenda
+            vel! Fugit neque accusantium cumque labore eveniet!
+            <p>
+            </p>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, deleniti nihil? Praesentium perspiciatis
+            quibusdam doloribus ipsa obcaecati dignissimos accusamus qui!
+            </p>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
